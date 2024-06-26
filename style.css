@@ -8,31 +8,29 @@ body{
     margin: 0;
 }    
 .imagen{
-    display: block;
     margin: 0 auto;
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
     opacity: 0.2;
 }
 .caja-logo{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 70%;
 }
 .logo{
     display: flex;
     align-items: center;
-    gap: 1px;
-    padding: 10px;
 }
 .logo-imagen{
     margin: 1px;
-    width: min(50px,90vw);
-    height: min(50px,90vw);
-    }
+    width: min(80px,90vw);
+    height: min(80px,90vw);
+}
 .titulo_header{
     color: #DC5F00;
-    font-size: min(30px,90vw);
+    font-size: min(40px,90vw);
     font-weight: 900;
 }
 .titulo_header_bot{
@@ -43,18 +41,16 @@ body{
 .titulo_header_comandos{
     color: #FFFFFF;
     font-weight: 200;
-    font-size: min(18px,90vw);
+    font-size: min(16px,90vw);
     max-width: 100%;
+    text-decoration: none;
 }
-
 .add-boton-texto{
     display: flex;
-    justify-content: center;
     text-align: center;
-    width: 600px;
-    height: 500px;
-    /*Eso no va ok?*/
-    padding-left: 29%;
+    width: 510px;
+    height: 550px;
+    margin: 0 auto;
 }
 .add-texto{
     color: white;
@@ -62,12 +58,10 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
 }
-
 .add-texto-titulo{
     font-weight: 600;
     font-size: min(50px,90vw);
 }
-
 .add-texto-p{
     font-weight: 200;
     font-size: min(30px,90vw);
@@ -85,20 +79,27 @@ body{
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.353);
 }
 .add-boton-texto-parrafo{
-    display: block;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
     color: #FFFFFF;
-    font-weight: 300;
+    font-weight: 200;
     text-align: center;
-    gap: 50%;
     background-color: #475775;
-    padding: 100px;
-    border-top: 2px solid rgba(128, 128, 128, 0.479);
-    border-bottom: 2px solid rgba(128, 128, 128, 0.479);
+    height: 50vh;
+    border-top: 2px solid rgba(128, 128, 128, 0.400);
+    border-bottom: 2px solid rgba(128, 128, 128, 0.400);
     border-style: dashed none dashed;
 }
 .add-boton-texto-p{
+    width: 500px;
     font-size: min(30px,90vw);
+}
+.caja-footer{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
 }
 .grillo-logo-footer{
     padding: 10px;
@@ -115,17 +116,47 @@ body{
     font-weight: 200;
     font-size: min(20px,90vw);
 }
-
 .footer-iconos{
     display: flex;
     justify-content: end;
-    gap: 15px;
-    padding: 15px;
+    align-items: center;
+    padding-right: 50px;
 }
-.footer-caja{
-    background: #D7DEEA;
+.footer-iconos-img{
+    min-width: 35vh;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-iconos-img a {
+    text-decoration: none;
+    font-size: 40px;
     width: 70px;
-    height: 70px;
-    border-radius: 15px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.353);
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 20%;
+}
+.github{
+    color: #000000;
+}
+.discord{
+    color: #5765EC;
+}
+.paypal{
+    color: #002987;
+}
+.footer-copy-titulo{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    gap: 0.5%;
+}
+.footer-copy-uno{
+    font-weight: 700;
+    font-size: min(20px,90vw);
+}
+.footer-copy-dos{
+    font-weight: 200;
+    font-size: min(20px,90vw);
 }
