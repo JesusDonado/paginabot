@@ -1,0 +1,131 @@
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    background-color: #262626;
+    padding: 0;
+    margin: 0;
+}    
+.imagen{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    opacity: 0.2;
+}
+.caja-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    padding: 10px;
+}
+.logo-imagen{
+    margin: 1px;
+    width: min(50px,90vw);
+    height: min(50px,90vw);
+    }
+.titulo_header{
+    color: #DC5F00;
+    font-size: min(30px,90vw);
+    font-weight: 900;
+}
+.titulo_header_bot{
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: min(20px,300vw);
+}
+.titulo_header_comandos{
+    color: #FFFFFF;
+    font-weight: 200;
+    font-size: min(18px,90vw);
+    max-width: 100%;
+}
+
+.add-boton-texto{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 600px;
+    height: 500px;
+    /*Eso no va ok?*/
+    padding-left: 29%;
+}
+.add-texto{
+    color: white;
+    background-image: url(imagenes/grillo-animado\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.add-texto-titulo{
+    font-weight: 600;
+    font-size: min(50px,90vw);
+}
+
+.add-texto-p{
+    font-weight: 200;
+    font-size: min(30px,90vw);
+}
+.add-boton{
+    padding: 10px 10px 10px 10px;
+    font-weight: 200;
+    font-size: min(20px,90vw);
+    color: #FFFFFF;
+    background-color: #DC5F00;
+    border-radius: 5px;
+    border: 0px#FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.353);
+}
+.add-boton-texto-parrafo{
+    display: block;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: 300;
+    text-align: center;
+    gap: 50%;
+    background-color: #475775;
+    padding: 100px;
+    border-top: 2px solid rgba(128, 128, 128, 0.479);
+    border-bottom: 2px solid rgba(128, 128, 128, 0.479);
+    border-style: dashed none dashed;
+}
+.add-boton-texto-p{
+    font-size: min(30px,90vw);
+}
+.grillo-logo-footer{
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+}
+.logo-footer{
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+.texto-footer-logo{
+    font-weight: 200;
+    font-size: min(20px,90vw);
+}
+
+.footer-iconos{
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    padding: 15px;
+}
+.footer-caja{
+    background: #D7DEEA;
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.353);
+}
